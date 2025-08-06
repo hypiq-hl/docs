@@ -25,6 +25,7 @@
   "navigation": [
     {
       "group": "Platform",
+      "icon": "computer",
       "pages": [
         "index",
         "platform/overview"
@@ -38,7 +39,8 @@
       ]
     },
     {
-      "group": "✨ Brand Kit",
+      "group": "Brand Kit",
+      "icon": "palette",
       "pages": [
         "brand/logos-assets",
         "brand/colors",

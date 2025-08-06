@@ -4,11 +4,12 @@
 .mintlify-logo img,
 .nav-logo img,
 .header-logo img,
-nav img[alt="Logo"] {
-  height: 32px !important;
+nav img[alt="Logo"],
+a[href] img {
+  height: 40px !important;
   width: auto !important;
-  max-width: 120px !important;
-  max-height: 32px !important;
+  max-width: 140px !important;
+  max-height: 40px !important;
   object-fit: contain !important;
 }
 
