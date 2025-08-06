@@ -6,7 +6,6 @@
 .nav-logo img,
 .header-logo img,
 nav img[alt="Logo"],
-img[alt="light logo"],
 img[alt="dark logo"],
 nav a img {
   height: 40px !important;
@@ -16,32 +15,14 @@ nav a img {
   object-fit: contain !important;
 }
 
-/* Ensure only one logo shows at a time - fix dual logo issue */
-.nav-logo.block.dark\\:hidden {
-  display: block !important;
-}
-
-.nav-logo.hidden.dark\\:block {
+/* Force dark theme always - hide any light mode elements */
+.nav-logo.block.dark\\:hidden,
+img[alt="light logo"] {
   display: none !important;
 }
 
-/* Dark mode: show white logo, hide black logo */
-@media (prefers-color-scheme: dark) {
-  .nav-logo.block.dark\\:hidden {
-    display: none !important;
-  }
-  
-  .nav-logo.hidden.dark\\:block {
-    display: block !important;
-  }
-}
-
-/* Force dark mode when .dark class is present */
-.dark .nav-logo.block.dark\\:hidden {
-  display: none !important;
-}
-
-.dark .nav-logo.hidden.dark\\:block {
+.nav-logo.hidden.dark\\:block,
+img[alt="dark logo"] {
   display: block !important;
 }
 
@@ -68,40 +49,38 @@ header,
   padding: 8px 16px !important;
 }
 
-/* Dark mode background colors */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #072722 !important;
-    --accent-color: #0d3831 !important;
-  }
-  
-  /* Main background */
-  body,
-  html,
-  .dark {
-    background-color: #072722 !important;
-  }
-  
-  /* Sidebar background */
-  .sidebar,
-  .navigation,
-  .nav-sidebar,
-  [data-sidebar="true"] {
-    background-color: #072722 !important;
-  }
-  
-  /* Content area background */
-  .content,
-  .main-content,
-  .documentation {
-    background-color: #072722 !important;
-  }
-  
-  /* Accent elements */
-  .accent,
-  .highlight,
-  .border {
-    background-color: #0d3831 !important;
-    border-color: #0d3831 !important;
-  }
+/* Force dark green theme always */
+:root {
+  --background-color: #072722 !important;
+  --accent-color: #0d3831 !important;
+}
+
+/* Main background - always dark green */
+body,
+html,
+.dark {
+  background-color: #072722 !important;
+}
+
+/* Sidebar background */
+.sidebar,
+.navigation,
+.nav-sidebar,
+[data-sidebar="true"] {
+  background-color: #072722 !important;
+}
+
+/* Content area background */
+.content,
+.main-content,
+.documentation {
+  background-color: #072722 !important;
+}
+
+/* Accent elements */
+.accent,
+.highlight,
+.border {
+  background-color: #0d3831 !important;
+  border-color: #0d3831 !important;
 }
