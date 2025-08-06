@@ -20,23 +20,44 @@
   "navigation": [
     {
       "group": "Platform",
+      "icon": "monitor",
       "pages": [
-        "index",
-        "platform/overview"
+        {
+          "page": "index",
+          "icon": "home"
+        },
+        {
+          "page": "platform/overview",
+          "icon": "layers"
+        }
       ]
     },
     {
       "group": "Prediction Markets",
+      "icon": "target",
       "pages": [
-        "prediction/earn"
+        {
+          "page": "prediction/earn",
+          "icon": "trending-up"
+        }
       ]
     },
     {
       "group": "✨ Brand Kit",
+      "icon": "palette",
       "pages": [
-        "brand/logos-assets",
-        "brand/colors",
-        "brand/typography-iconography"
+        {
+          "page": "brand/logos-assets",
+          "icon": "image"
+        },
+        {
+          "page": "brand/colors",
+          "icon": "eye-dropper"
+        },
+        {
+          "page": "brand/typography-iconography",
+          "icon": "type"
+        }
       ]
     }
   ],
