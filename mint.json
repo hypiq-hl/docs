@@ -16,23 +16,7 @@
     }
   },
 
-  "anchors": [
-    {
-      "name": "HYPIQ Platform",
-      "icon": "bar-chart-3",
-      "url": "https://hypiq.finance"
-    },
-    {
-      "name": "Support",
-      "icon": "headphones",
-      "url": "mailto:support@hypiq.finance"
-    },
-    {
-      "name": "Community",
-      "icon": "users",
-      "url": "https://discord.gg/hypiq"
-    }
-  ],
+
   "navigation": [
     {
       "group": "Platform",
