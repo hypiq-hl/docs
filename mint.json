@@ -14,6 +14,14 @@
     "anchors": {
       "from": "#4ade80",
       "to": "#22c55e"
+    },
+    "background": {
+      "light": "#ffffff",
+      "dark": "#072722"
+    },
+    "accent": {
+      "light": "#f8fafc",
+      "dark": "#0d3831"
     }
   },
 
