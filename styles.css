@@ -2,14 +2,47 @@
 .logo img,
 [data-logo] img,
 .mintlify-logo img,
+.nav-logo,
 .nav-logo img,
 .header-logo img,
-nav img[alt="Logo"] {
-  height: 32px !important;
+nav img[alt="Logo"],
+img[alt="light logo"],
+img[alt="dark logo"],
+nav a img {
+  height: 40px !important;
   width: auto !important;
-  max-width: 120px !important;
-  max-height: 32px !important;
+  max-width: 160px !important;
+  max-height: 40px !important;
   object-fit: contain !important;
+}
+
+/* Ensure only one logo shows at a time - fix dual logo issue */
+.nav-logo.block.dark\\:hidden {
+  display: block !important;
+}
+
+.nav-logo.hidden.dark\\:block {
+  display: none !important;
+}
+
+/* Dark mode: show white logo, hide black logo */
+@media (prefers-color-scheme: dark) {
+  .nav-logo.block.dark\\:hidden {
+    display: none !important;
+  }
+  
+  .nav-logo.hidden.dark\\:block {
+    display: block !important;
+  }
+}
+
+/* Force dark mode when .dark class is present */
+.dark .nav-logo.block.dark\\:hidden {
+  display: none !important;
+}
+
+.dark .nav-logo.hidden.dark\\:block {
+  display: block !important;
 }
 
 /* Ensure logo container has proper spacing and alignment */
