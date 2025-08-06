@@ -3,7 +3,8 @@
   "name": "HYPIQ Documentation",
   "logo": {
     "dark": "/HYPIQ-logo-white.png",
-    "light": "/HYPIQ-logo-white.png"
+    "light": "/HYPIQ-logo-black.png",
+    "href": "https://hypiq.finance"
   },
   "favicon": "/HYPIQ-logo-white.png",
   "colors": {
@@ -69,5 +70,8 @@
   "theme": "quill",
   "icons": {
     "library": "lucide"
-  }
+  },
+  "customCss": [
+    "/styles.css"
+  ]
 }
