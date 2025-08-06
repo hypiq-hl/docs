@@ -15,14 +15,8 @@ nav a img {
   object-fit: contain !important;
 }
 
-/* Force dark theme always - hide any light mode elements */
-.nav-logo.block.dark\\:hidden,
-img[alt="light logo"] {
-  display: none !important;
-}
-
-.nav-logo.hidden.dark\\:block,
-img[alt="dark logo"] {
+/* Ensure proper logo display - no forcing of theme-specific logos */
+.nav-logo img {
   display: block !important;
 }
 
