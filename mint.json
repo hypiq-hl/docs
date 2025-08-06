@@ -25,7 +25,7 @@
   "navigation": [
     {
       "group": "Platform",
-      "icon": "computer",
+      
       "pages": [
         "index",
         "platform/overview"
@@ -33,14 +33,14 @@
     },
     {
       "group": "Prediction Markets",
-      "icon": "bullseye",
+      
       "pages": [
         "prediction/earn"
       ]
     },
     {
-      "group": "Brand Kit",
-      "icon": "palette",
+      "group": "✨ Brand Kit",
+      
       "pages": [
         "brand/logos-assets",
         "brand/colors",
