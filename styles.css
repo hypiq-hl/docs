@@ -1,8 +1,8 @@
-/* Custom logo sizing - make logo fit in header */
+/* Custom logo sizing - make logo fit perfectly in header */
 .logo img {
   height: auto !important;
-  width: 75px !important; /* Half the previous size to fit header */
-  max-width: 75px !important;
+  width: 40px !important; /* Half size again to fit properly in header */
+  max-width: 40px !important;
 }
 
 /* Alternative selector for logo sizing */
@@ -10,8 +10,8 @@
 .mintlify-logo img,
 .nav-logo img {
   height: auto !important;
-  width: 75px !important;
-  max-width: 75px !important;
+  width: 40px !important;
+  max-width: 40px !important;
 }
 
 /* Ensure logo container has enough space */
