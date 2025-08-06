@@ -22,24 +22,18 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Start Trading",
     "url": "https://hypiq.finance"
   },
-  "tabs": [
-    {
-      "name": "Documentation",
-      "url": "introduction"
-    }
-  ],
   "anchors": [
     {
       "name": "HYPIQ Platform",
-      "icon": "trending-up",
+      "icon": "bar-chart-3",
       "url": "https://hypiq.finance"
     },
     {
       "name": "Support",
-      "icon": "help-circle",
+      "icon": "headphones",
       "url": "mailto:support@hypiq.finance"
     },
     {
@@ -50,7 +44,7 @@
   ],
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Overview",
       "pages": [
         "index",
         "getting-started",
@@ -90,9 +84,14 @@
       ]
     },
     {
+      "group": "Brand & Assets",
+      "pages": [
+        "brand-kit"
+      ]
+    },
+    {
       "group": "Resources",
       "pages": [
-        "brand-kit",
         "changelog",
         "legal/terms"
       ]
