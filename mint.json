@@ -44,56 +44,30 @@
   ],
   "navigation": [
     {
-      "group": "Overview",
+      "group": "Getting Started",
       "pages": [
         "index",
-        "getting-started",
-        "quickstart"
+        "getting-started"
       ]
     },
     {
       "group": "Platform",
       "pages": [
-        "platform/overview",
-        "platform/features",
-        "platform/security"
+        "platform/overview"
       ]
     },
     {
-      "group": "Trading",
+      "group": "Prediction Markets",
       "pages": [
-        "trading/basics",
-        "trading/advanced",
-        "trading/risk-management"
+        "prediction/earn"
       ]
     },
     {
-      "group": "API & Developers",
+      "group": "Brand Kit",
       "pages": [
-        "api/overview",
-        "api/authentication",
-        "api/endpoints"
-      ]
-    },
-    {
-      "group": "Support",
-      "pages": [
-        "faq",
-        "support/contact",
-        "support/troubleshooting"
-      ]
-    },
-    {
-      "group": "Brand & Assets",
-      "pages": [
-        "brand-kit"
-      ]
-    },
-    {
-      "group": "Resources",
-      "pages": [
-        "changelog",
-        "legal/terms"
+        "brand/logos-assets",
+        "brand/colors",
+        "brand/typography-iconography"
       ]
     }
   ],

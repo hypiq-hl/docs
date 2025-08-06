@@ -1,0 +1,323 @@
+---
+title: 'Typography & Iconography'
+description: 'HYPIQ typography system and icon guidelines'
+---
+
+# ✍️ Typography & Iconography
+
+HYPIQ's typography and iconography systems ensure consistent, accessible, and beautiful visual communication across all platforms.
+
+## Typography System
+
+### Font Family
+
+<CardGroup cols={2}>
+  <Card title="Inter" icon="type">
+    **Primary Typeface**
+    
+    Modern, geometric sans-serif designed for excellent screen readability
+    
+    - Clean, professional appearance
+    - Optimized for digital interfaces
+    - Excellent multi-language support
+    - Variable font technology
+  </Card>
+  <Card title="System Fallbacks" icon="layers">
+    **Font Stack**
+    
+    ```css
+    font-family: "Inter", 
+                 -apple-system, 
+                 BlinkMacSystemFont, 
+                 "Segoe UI", 
+                 sans-serif;
+    ```
+  </Card>
+</CardGroup>
+
+### Font Weights & Usage
+
+<CardGroup cols={3}>
+  <Card title="Light (300)" icon="feather">
+    **Subtle Elements**
+    - Captions and metadata
+    - Secondary information
+    - Fine print details
+    - Timestamps
+  </Card>
+  <Card title="Regular (400)" icon="type">
+    **Body Text**
+    - Paragraphs and descriptions
+    - General content
+    - Form labels
+    - Standard interface text
+  </Card>
+  <Card title="Medium (500)" icon="bold">
+    **Emphasis**
+    - Important text highlights
+    - Call-to-action labels
+    - Selected states
+    - Emphasized content
+  </Card>
+  <Card title="Semi-bold (600)" icon="bold">
+    **Headings**
+    - Section titles (H3, H4)
+    - Card headers
+    - Navigation items
+    - Subheadings
+  </Card>
+  <Card title="Bold (700)" icon="bold">
+    **Strong Emphasis**
+    - Main headings (H2)
+    - Critical information
+    - Brand statements
+    - Alert messages
+  </Card>
+  <Card title="Extra Bold (800)" icon="bold">
+    **Hero Elements**
+    - Page titles (H1)
+    - Hero headings
+    - Brand emphasis
+    - Marketing headlines
+  </Card>
+</CardGroup>
+
+### Typography Scale
+
+<Accordion title="Size & Weight Specifications">
+  **Heading Hierarchy:**
+  ```
+  H1: 32px (2rem) - Extra Bold (800) - Leading: 1.2
+  H2: 24px (1.5rem) - Bold (700) - Leading: 1.3
+  H3: 20px (1.25rem) - Semi-bold (600) - Leading: 1.4
+  H4: 18px (1.125rem) - Semi-bold (600) - Leading: 1.4
+  ```
+  
+  **Body Text:**
+  ```
+  Large: 18px (1.125rem) - Regular (400) - Leading: 1.6
+  Base: 16px (1rem) - Regular (400) - Leading: 1.6
+  Small: 14px (0.875rem) - Regular (400) - Leading: 1.5
+  ```
+  
+  **Supporting Text:**
+  ```
+  Caption: 12px (0.75rem) - Light (300) - Leading: 1.4
+  Overline: 11px (0.6875rem) - Medium (500) - Leading: 1.3
+  ```
+</Accordion>
+
+### Typography Best Practices
+
+<Accordion title="Implementation Guidelines">
+  **Line Height (Leading):**
+  - Body text: 1.6 for optimal readability
+  - Headings: 1.2-1.4 for tight, impactful spacing
+  - Captions: 1.4 for compact information display
+  
+  **Letter Spacing:**
+  - Default: 0 (Inter's built-in spacing)
+  - Overlines/Labels: +0.05em for improved legibility
+  - Never use negative letter-spacing
+  
+  **Paragraph Spacing:**
+  - 16px between paragraphs
+  - 24px before section headings
+  - 8px after headings before content
+  
+  **Line Length:**
+  - Optimal: 45-75 characters per line
+  - Maximum: 85 characters
+  - Mobile: 35-45 characters
+</Accordion>
+
+## Iconography System
+
+HYPIQ uses Lucide icons for consistent, modern visual communication.
+
+### Icon Library
+
+<CardGroup cols={2}>
+  <Card title="Lucide Icons" icon="package">
+    **Modern Icon System**
+    
+    - 1000+ carefully crafted icons
+    - Consistent 24x24px grid
+    - 2px stroke width
+    - Rounded line caps and joins
+    - SVG format for scalability
+  </Card>
+  <Card title="Icon Characteristics" icon="grid-3x3">
+    **Design Principles**
+    
+    - Minimalist and clean design
+    - Consistent visual weight
+    - Universal recognition
+    - Scalable at any size
+    - Optimized for screen display
+  </Card>
+</CardGroup>
+
+### Common HYPIQ Icons
+
+<CardGroup cols={4}>
+  <Card title="Navigation" icon="menu">
+    **Interface Elements**
+    - `menu` - Navigation toggle
+    - `chevron-right` - Expand/next
+    - `search` - Search functionality
+    - `user` - User profile/account
+  </Card>
+  <Card title="Trading" icon="trending-up">
+    **Financial Actions**
+    - `trending-up` - Growth/profit
+    - `trending-down` - Decline/loss
+    - `bar-chart-3` - Analytics
+    - `activity` - Market activity
+  </Card>
+  <Card title="Security" icon="shield">
+    **Safety & Trust**
+    - `shield` - Security/protection
+    - `lock` - Secure/locked
+    - `key` - Authentication
+    - `eye` - Visibility/watch
+  </Card>
+  <Card title="Communication" icon="message-circle">
+    **Support & Social**
+    - `help-circle` - Help/support
+    - `message-circle` - Chat/messages
+    - `mail` - Email/contact
+    - `users` - Community/team
+  </Card>
+</CardGroup>
+
+### Icon Sizing Guidelines
+
+<Accordion title="Size Specifications">
+  **Standard Sizes:**
+  ```
+  Small: 16px - Inline with text, compact UI
+  Default: 20px - Navigation, form elements
+  Medium: 24px - Standard interface icons
+  Large: 32px - Featured content, headers
+  XL: 48px+ - Hero sections, illustrations
+  ```
+  
+  **Usage Context:**
+  - **16px**: Menu items, inline text icons, dense layouts
+  - **20px**: Navigation bars, sidebar items, form inputs
+  - **24px**: Buttons, cards, standard interface elements
+  - **32px**: Page headers, section titles, featured content
+  - **48px+**: Landing pages, empty states, illustrations
+</Accordion>
+
+### Icon Colors & States
+
+<CardGroup cols={3}>
+  <Card title="Default State" icon="circle">
+    **Standard Icons**
+    ```
+    Color: #b0b8bf (Text Secondary)
+    Usage: Inactive, informational
+    Context: Default interface elements
+    ```
+  </Card>
+  <Card title="Active State" icon="check-circle">
+    **Interactive Icons**
+    ```
+    Color: #4ade80 (HYPIQ Green)
+    Usage: Active, selected, success
+    Context: Current page, completed actions
+    ```
+  </Card>
+  <Card title="Hover State" icon="arrow-right">
+    **Interactive Feedback**
+    ```
+    Color: #ffffff (Text Primary)
+    Usage: Hover, focus states
+    Context: Interactive elements
+    ```
+  </Card>
+</CardGroup>
+
+### Icon Implementation
+
+<Accordion title="Technical Guidelines">
+  **SVG Implementation:**
+  ```html
+  <!-- Inline SVG with proper attributes -->
+  <svg width="24" height="24" stroke="currentColor" fill="none">
+    <path d="..."></path>
+  </svg>
+  ```
+  
+  **CSS Styling:**
+  ```css
+  .icon {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
+  ```
+  
+  **React Component:**
+  ```jsx
+  import { TrendingUp } from 'lucide-react';
+  
+  <TrendingUp size={24} color="#4ade80" />
+  ```
+</Accordion>
+
+## Accessibility Considerations
+
+### Typography Accessibility
+<CardGroup cols={2}>
+  <Card title="Contrast Compliance" icon="eye">
+    **WCAG Guidelines**
+    
+    - All text meets WCAG AA standards
+    - High contrast ratios maintained
+    - Readable in various lighting conditions
+    - Compatible with screen readers
+  </Card>
+  <Card title="Scalability" icon="zoom-in">
+    **Responsive Text**
+    
+    - Scales appropriately on all devices
+    - Maintains readability at 200% zoom
+    - Responsive font sizes for mobile
+    - rem units for accessibility
+  </Card>
+</CardGroup>
+
+### Icon Accessibility
+<CardGroup cols={2}>
+  <Card title="Semantic Meaning" icon="message-square">
+    **Clear Communication**
+    
+    - Icons paired with descriptive text
+    - Alternative text for screen readers
+    - Consistent icon usage patterns
+    - Universal symbol recognition
+  </Card>
+  <Card title="Interactive States" icon="mouse-pointer">
+    **User Feedback**
+    
+    - Clear hover and focus states
+    - Sufficient touch target sizes (44px minimum)
+    - Visual feedback for interactions
+    - Keyboard navigation support
+  </Card>
+</CardGroup>
+
+<Info>
+  Always provide text labels or tooltips for icons in critical interface elements. Icons should enhance, not replace, clear communication.
+</Info>
+
+<Warning>
+  Test typography and icons across different devices, browsers, and accessibility tools to ensure consistent experience for all users.
+</Warning>
