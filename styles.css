@@ -78,3 +78,14 @@ html,
   background-color: #0d3831 !important;
   border-color: #0d3831 !important;
 }
+
+/* Hide any remaining mode toggle elements */
+[data-theme-toggle],
+.theme-toggle,
+.mode-toggle,
+button[aria-label*="theme"],
+button[aria-label*="mode"],
+.dark-mode-toggle,
+.light-mode-toggle {
+  display: none !important;
+}

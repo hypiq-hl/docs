@@ -15,9 +15,9 @@
       "dark": "#072722"
     }
   },
-
-
-
+  "appearance": {
+    "strict": true
+  },
   "navigation": [
     {
       "group": "Introduction",
