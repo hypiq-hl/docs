@@ -6,7 +6,7 @@
     "light": "/HYPIQ-logo-black.png",
     "href": "https://hypiq.finance"
   },
-  "favicon": "/HYPIQ-logo-white.png",
+  "favicon": "/HYPIQ-logo-black.png",
   "colors": {
     "primary": "#4ade80",
     "light": "#4ade80",
@@ -21,44 +21,23 @@
   "navigation": [
     {
       "group": "Platform",
-      "icon": "monitor",
       "pages": [
-        {
-          "page": "index",
-          "icon": "home"
-        },
-        {
-          "page": "platform/overview",
-          "icon": "layers"
-        }
+        "index",
+        "platform/overview"
       ]
     },
     {
       "group": "Prediction Markets",
-      "icon": "target",
       "pages": [
-        {
-          "page": "prediction/earn",
-          "icon": "trending-up"
-        }
+        "prediction/earn"
       ]
     },
     {
       "group": "✨ Brand Kit",
-      "icon": "palette",
       "pages": [
-        {
-          "page": "brand/logos-assets",
-          "icon": "image"
-        },
-        {
-          "page": "brand/colors",
-          "icon": "eye-dropper"
-        },
-        {
-          "page": "brand/typography-iconography",
-          "icon": "type"
-        }
+        "brand/logos-assets",
+        "brand/colors",
+        "brand/typography-iconography"
       ]
     }
   ],
