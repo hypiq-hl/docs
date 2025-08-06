@@ -33,7 +33,7 @@
     },
     {
       "group": "Prediction Markets",
-      "icon": "target",
+      "icon": "bullseye",
       "pages": [
         "prediction/earn"
       ]
