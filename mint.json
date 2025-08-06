@@ -3,6 +3,7 @@
   "name": "HYPIQ Documentation",
   "logo": {
     "dark": "/HYPIQ-logo-white.png",
+    "light": "/HYPIQ-logo-white.png",
     "href": "https://hypiq.finance"
   },
   "favicon": "/HYPIQ-logo-black.png",
