@@ -34,34 +34,67 @@
   "anchors": [
     {
       "name": "HYPIQ Platform",
-      "icon": "rocket",
+      "icon": "trending-up",
       "url": "https://hypiq.finance"
     },
     {
       "name": "Support",
-      "icon": "life-ring",
+      "icon": "help-circle",
       "url": "mailto:support@hypiq.finance"
+    },
+    {
+      "name": "Community",
+      "icon": "users",
+      "url": "https://discord.gg/hypiq"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
         "index",
-        "getting-started"
+        "getting-started",
+        "quickstart"
       ]
     },
     {
       "group": "Platform",
       "pages": [
-        "platform/overview"
+        "platform/overview",
+        "platform/features",
+        "platform/security"
+      ]
+    },
+    {
+      "group": "Trading",
+      "pages": [
+        "trading/basics",
+        "trading/advanced",
+        "trading/risk-management"
+      ]
+    },
+    {
+      "group": "API & Developers",
+      "pages": [
+        "api/overview",
+        "api/authentication",
+        "api/endpoints"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "faq",
+        "support/contact",
+        "support/troubleshooting"
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "faq",
-        "brand-kit"
+        "brand-kit",
+        "changelog",
+        "legal/terms"
       ]
     }
   ],
@@ -70,5 +103,8 @@
     "linkedin": "https://linkedin.com/company/hypiq"
   },
   "backgroundImage": "/docs/background.png",
-  "theme": "quill"
+  "theme": "quill",
+  "icons": {
+    "library": "lucide"
+  }
 }
