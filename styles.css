@@ -1,28 +1,38 @@
-/* Custom logo sizing - make logo very small to fit in header */
-.logo img {
-  height: auto !important;
-  width: 16px !important; /* 2.5x smaller - should definitely fit in header */
-  max-width: 16px !important;
-  max-height: 24px !important;
-}
-
-/* Alternative selector for logo sizing */
+/* Custom logo sizing - properly sized logo for header */
+.logo img,
 [data-logo] img,
 .mintlify-logo img,
-.nav-logo img {
-  height: auto !important;
-  width: 16px !important;
-  max-width: 16px !important;
-  max-height: 24px !important;
+.nav-logo img,
+.header-logo img,
+nav img[alt="Logo"] {
+  height: 32px !important;
+  width: auto !important;
+  max-width: 120px !important;
+  max-height: 32px !important;
+  object-fit: contain !important;
 }
 
-/* Ensure logo container has enough space */
+/* Ensure logo container has proper spacing and alignment */
 .logo,
 [data-logo],
 .mintlify-logo,
-.nav-logo {
-  height: auto !important;
-  min-height: 40px !important;
+.nav-logo,
+.header-logo,
+nav a[href] {
+  display: flex !important;
+  align-items: center !important;
+  height: 48px !important;
+  padding: 8px 0 !important;
+  overflow: hidden !important;
+}
+
+/* Header container adjustments */
+nav,
+header,
+.header,
+.navbar {
+  min-height: 64px !important;
+  padding: 8px 16px !important;
 }
 
 /* Dark mode background colors */
