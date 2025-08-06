@@ -15,16 +15,7 @@
       "to": "#22c55e"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:support@hypiq.finance"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Start Trading",
-    "url": "https://hypiq.finance"
-  },
+
   "anchors": [
     {
       "name": "HYPIQ Platform",
@@ -44,15 +35,9 @@
   ],
   "navigation": [
     {
-      "group": "Getting Started",
-      "pages": [
-        "index",
-        "getting-started"
-      ]
-    },
-    {
       "group": "Platform",
       "pages": [
+        "index",
         "platform/overview"
       ]
     },
@@ -63,7 +48,7 @@
       ]
     },
     {
-      "group": "Brand Kit",
+      "group": "✨ Brand Kit",
       "pages": [
         "brand/logos-assets",
         "brand/colors",
